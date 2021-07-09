@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 export type InferValueTypes<T> = T extends { [key in string]: infer U }
   ? U
   : never;
