@@ -4,5 +4,10 @@
         <TargetFramework>netcoreapp3.1</TargetFramework>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\GymRecord.Config\GymRecord.Config.csproj" />
+      <ProjectReference Include="..\GymRecord.Core\GymRecord.Core.csproj" />
+    </ItemGroup>
+
 
 </Project>
