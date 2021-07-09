@@ -1,16 +1,16 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymRecord", "GymRecord\GymRecord.csproj", "{488F0B54-EBF5-4F27-950F-239F45C82DDE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymRecord", "src\GymRecord\GymRecord.csproj", "{488F0B54-EBF5-4F27-950F-239F45C82DDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymRecord.Config", "GymRecord.Config\GymRecord.Config.csproj", "{C991DC22-8BE8-42B9-8D24-503B9217612C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymRecord.Config", "src\GymRecord.Config\GymRecord.Config.csproj", "{C991DC22-8BE8-42B9-8D24-503B9217612C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymRecord.Core", "GymRecord.Core\GymRecord.Core.csproj", "{0C15C25C-C1FD-44CA-AA53-68CD13FF62A5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymRecord.Core", "src\GymRecord.Core\GymRecord.Core.csproj", "{0C15C25C-C1FD-44CA-AA53-68CD13FF62A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymRecord.Data", "GymRecord.Data\GymRecord.Data.csproj", "{8C71753C-D16D-4481-8416-15C6AA819BF9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymRecord.Data", "src\GymRecord.Data\GymRecord.Data.csproj", "{8C71753C-D16D-4481-8416-15C6AA819BF9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2A8D83D0-42F4-4AE6-90A4-9DF9E47DEC96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymRecord.Tests", "GymRecord.Tests\GymRecord.Tests.csproj", "{8FFDDF69-C3D3-4D60-BE3A-7A9B51AF359E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymRecord.Tests", "tests\GymRecord.Tests\GymRecord.Tests.csproj", "{8FFDDF69-C3D3-4D60-BE3A-7A9B51AF359E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{AFB4BC2A-7D5C-4350-8A9C-A0554C8E969A}"
 EndProject
