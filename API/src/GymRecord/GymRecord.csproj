@@ -3,6 +3,10 @@
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
     </PropertyGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="SimpleMapper" Version="1.0.0" />
+    </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\GymRecord.Config\GymRecord.Config.csproj" />
