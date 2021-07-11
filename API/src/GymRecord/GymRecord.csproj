@@ -8,6 +8,10 @@
         <PackageReference Include="SimpleMapper" Version="1.0.0" />
     </ItemGroup>
 
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+        <CodeAnalysisRuleSet>..\GymRecord.Config\Stylecop.ruleset</CodeAnalysisRuleSet>
+    </PropertyGroup>
+
     <ItemGroup>
       <ProjectReference Include="..\GymRecord.Config\GymRecord.Config.csproj" />
       <ProjectReference Include="..\GymRecord.Core\GymRecord.Core.csproj" />
