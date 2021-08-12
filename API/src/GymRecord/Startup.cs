@@ -1,3 +1,5 @@
+using GymRecord.Config;
+using GymRecords.DataLayer.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -20,8 +22,16 @@ namespace GymRecord
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            services.AddHttpContextAccessor();
+
+            services.AddSession();
             
             services.AddSimpleMapper();
+
+            services.AddGymRecordDataLayer(Configuration);
+
+            services.AddGymRecordServiceCollection();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -39,6 +49,8 @@ namespace GymRecord
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
+
+            app.UseSession();
         }
     }
 }
