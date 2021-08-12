@@ -47,6 +47,8 @@ namespace GymRecord
             services.AddSimpleMapper();
 
             services.AddGymRecordDataLayer(Configuration);
+            
+            services.AddHttpClient();
 
             services.AddGymRecordServiceCollection();
         }
